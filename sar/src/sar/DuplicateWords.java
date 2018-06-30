@@ -1,11 +1,7 @@
 package sar;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
-import java.util.TreeSet;
 
 
 public class DuplicateWords {
@@ -28,16 +24,11 @@ public class DuplicateWords {
 			for(int j=0; j<arra.length; j++){
 				for(int k=0; k<arra.length;k++){
 					if(arra[i].equalsIgnoreCase(arra[k])){
-						arra[i].re
+						
 					}
 				}
 			}
-			//HashSet<String> mySet = new HashSet<String>(Arrays.asList(arra));
-			//Iterator iter = mySet.iterator();
-			
-			//while (iter.hasNext()) {
-			//	s = s+" "+ iter.next();
-			//  }
+		
 			  System.out.println(s.trim());
 		}
 	}

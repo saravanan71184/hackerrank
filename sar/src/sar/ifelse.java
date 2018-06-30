@@ -1,11 +1,5 @@
 package sar;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
 public class ifelse {
 
         public static void main(String[] args) {
