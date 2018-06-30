@@ -1,0 +1,22 @@
+At the publishing of this book, very few browsers will run ES6 out of the box, much less TypeScript.
+To solve this issue we have transpilers (or sometimes called transcompiler). The TypeScript transpiler
+takes our TypeScript code as input and outputs ES5 code that nearly all browsers understand.
+For converting TypeScript to ES5 there is a single transpiler written by the core TypeScript
+team. However if we wanted to convert ES6 code (not TypeScript) to ES5 there are two
+major ES6-to-ES5 transpilers: traceur²³ by Google and babel²⁴ created by the JavaScript
+community. We’re not going to be using either directly for this book, but they’re both
+great projects that are worth knowing about.
+We installed TypeScript in the last chapter, but in case you’re just starting out in this
+chapter, you can install it like so:
+npm install -g typescript
+TypeScript is an official collaboration between Microsoft and Google. That’s great news because
+with two tech heavyweights behind it we know that it will be supported for a long time. Both
+groups are committed to moving the web forward and as developers we win because of it.
+One of the great things about transpilers is that they allow relatively small teams to make
+improvements to a language without requiring everyone on the internet upgrade their browser.
+One thing to point out: we don’t have to use TypeScript with Angular2. If you want to use ES5 (i.e.
+“regular” JavaScript), you definitely can. There is an ES5 API that provides access to all functionality
+of Angular2. Then why should we use TypeScript at all? Because there are some great features in
+TypeScript that make development a lot better.
+What do we get with TypeScript? hjgjh 1000 1000 1000 23 33 33 44 555 555 555 555 
+There are five big improvements that TypeScript bring over ES5:
